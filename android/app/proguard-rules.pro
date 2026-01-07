@@ -1,0 +1,4 @@
+# TensorFlow Lite - GPU delegate
+-keep class org.tensorflow.lite.** { *; }
+-keepclassmembers class org.tensorflow.lite.** { *; }
+-dontwarn org.tensorflow.lite.**
